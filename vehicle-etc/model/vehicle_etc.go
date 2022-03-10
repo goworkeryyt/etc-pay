@@ -3,7 +3,7 @@
  * @Author: yt.yin
  */
 
-package model
+package vetcmod
 
 // VehicleEtcInfo 车辆ETC信息
 type VehicleEtcInfo struct {
