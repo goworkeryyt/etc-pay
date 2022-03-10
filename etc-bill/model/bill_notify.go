@@ -3,7 +3,7 @@
  * @Author: yt.yin
  */
 
-package model
+package billmod
 
 // EtcBillNotifyRcd ETC账单回调记录表
 type EtcBillNotifyRcd struct{

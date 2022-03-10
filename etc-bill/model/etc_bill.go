@@ -3,7 +3,7 @@
  * @Author: yt.yin
  */
 
-package model
+package billmod
 
 // EtcBillBase ETC支付账单基础表
 type EtcBillBase struct{

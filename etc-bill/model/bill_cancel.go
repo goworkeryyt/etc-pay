@@ -3,7 +3,7 @@
  * @Author: yt.yin
  */
 
-package model
+package billmod
 
 // EtcBillCancelRequest ETC账单撤销请求记录表
 type EtcBillCancelRequest struct {
