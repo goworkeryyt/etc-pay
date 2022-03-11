@@ -108,7 +108,7 @@ type EtcBillNotifyFail struct{
 	LastNotifyTime    string       `json:"lastNotifyTime"   gorm:"column:last_notify_time;comment:最后一次回调时间;type:varchar(32);"`
 
 	/** 回调次数 */
-	NotifyCount       string       `json:"notifyCount"      gorm:"column:notify_count;comment:回调次数;"`
+	NotifyCount       int          `json:"notifyCount"      gorm:"column:notify_count;comment:回调次数;"`
 
 	/** 回调失败原因 */
 	NotifyFailErr     string       `json:"notifyFailErr"    gorm:"column:notify_fail_err;comment:回调失败明细;type:text"`
@@ -129,7 +129,7 @@ type EtcBillNotifySuccess struct{
 	LastNotifyTime    string       `json:"lastNotifyTime"   gorm:"column:last_notify_time;comment:最后一次回调时间;type:varchar(32);"`
 
 	/** 回调次数 */
-	NotifyCount       string       `json:"notifyCount"      gorm:"column:notify_count;comment:回调次数;"`
+	NotifyCount       int          `json:"notifyCount"      gorm:"column:notify_count;comment:回调次数;"`
 }
 
 // TableName 最终回调成功表
